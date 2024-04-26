@@ -1,0 +1,30 @@
+﻿<Window x:Class="Кроссворд.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Кроссворд"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="609" Width="1082">
+    <Grid>
+        <Button Content="Проверить ответы" HorizontalAlignment="Left" Margin="32,539,0,0" VerticalAlignment="Top" Click="Button_Click" Height="25" Width="114"/>
+        <Button Content="Сбросить ответы" HorizontalAlignment="Left" Margin="178,539,0,0" VerticalAlignment="Top" Click="ResetButton_Click" Height="25" Width="114"/>
+        <Label Content="По горизонтали:&#xD;&#xA;1. Процесс создания и внедрения новой&#xD;&#xA;информационной системы (8 букв)&#xD;&#xA;2. Стадия разработки информационной системы, когда&#xD;&#xA;проводится анализ требований пользователей (9 букв)&#xD;&#xA;3. Специалист, занимающийся разработкой и&#xD;&#xA;внедрением информационных систем (7 букв)&#xD;&#xA;4. Технология, позволяющая интегрировать различные&#xD;&#xA;приложения и компоненты в единую информационную&#xD;&#xA;систему (9 букв)&#xD;&#xA;5. Программное обеспечение, используемое для&#xD;&#xA;планирования, управления и контроля процессов&#xD;&#xA;внедрения информационных систем (5 букв)&#xD;&#xA;6. Стадия разработки информационной системы, на&#xD;&#xA;которой происходит создание концепции будущей&#xD;&#xA;системы (7 букв)&#xD;&#xA;7. Этап внедрения информационной системы, на&#xD;&#xA;котором проводится тестирование функционала и&#xD;&#xA;исправление ошибок (8 букв)&#xD;&#xA;8. Изменение процессов бизнеса в соответствии с&#xD;&#xA;новой информационной системой (10 букв)&#xD;&#xA;По вертикали:&#xD;&#xA;9. Информационная система, которая взаимодействует&#xD;&#xA;с другими системами для обмена данными (6 букв)&#xD;&#xA;10. Процесс, включающий обучение пользователей работе&#xD;&#xA;с новой информационной системой (9 букв)&#xD;&#xA;11. Способ организации работы информационной системы,&#xD;&#xA;позволяющий ей адаптироваться к изменениям (9 букв)&#xD;&#xA;12. Документ, описывающий требования к&#xD;&#xA;информационной системе (8 букв)&#xD;&#xA;13. Инструмент для оценки эффективности внедрения&#xD;&#xA;информационных систем (9 букв)&#xD;&#xA;14. Перенос данных из старой системы в новую (6 букв)&#xD;&#xA;15. Документ, описывающий требования к&#xD;&#xA;функциональности и характеристикам информационной&#xD;&#xA;системы (8 букв)" HorizontalAlignment="Left" Margin="718,0,0,0" VerticalAlignment="Center" Width="354" Height="593" FontStyle="Italic"/>
+        <Grid x:Name="crosswordGrid" Margin="-10,0,364,59"/>
+        <Label Content="1" HorizontalAlignment="Left" Margin="405,229,0,0" VerticalAlignment="Top"/>
+        <Label Content="2" HorizontalAlignment="Left" Margin="69,126,0,0" VerticalAlignment="Top"/>
+        <Label Content="3" HorizontalAlignment="Left" Margin="100,177,0,0" VerticalAlignment="Top"/>
+        <Label Content="4" HorizontalAlignment="Left" Margin="50,384,0,0" VerticalAlignment="Top"/>
+        <Label Content="5" HorizontalAlignment="Left" Margin="25,230,0,0" VerticalAlignment="Top"/>
+        <Label Content="6" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top"/>
+        <Label Content="7" HorizontalAlignment="Left" Margin="152,306,0,0" VerticalAlignment="Top"/>
+        <Label Content="8" HorizontalAlignment="Left" Margin="355,102,0,0" VerticalAlignment="Top"/>
+        <Label Content="9" HorizontalAlignment="Left" Margin="428,78,0,0" VerticalAlignment="Top"/>
+        <Label Content="10" HorizontalAlignment="Left" Margin="578,208,0,0" VerticalAlignment="Top"/>
+        <Label Content="11" HorizontalAlignment="Left" Margin="272,260,0,0" VerticalAlignment="Top"/>
+        <Label Content="12" HorizontalAlignment="Left" Margin="195,30,0,0" VerticalAlignment="Top"/>
+        <Label Content="13" HorizontalAlignment="Left" Margin="118,30,0,0" VerticalAlignment="Top"/>
+        <Label Content="14" HorizontalAlignment="Left" Margin="373,5,0,0" VerticalAlignment="Top"/>
+        <Label Content="15" HorizontalAlignment="Left" Margin="500,180,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
